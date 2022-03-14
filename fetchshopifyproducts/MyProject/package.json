@@ -1,0 +1,35 @@
+{
+   "name": "MyProject",
+   "version": "0.0.1",
+   "description": "Awesome project developed with TypeORM.",
+   "type": "commonjs",
+   "devDependencies": {
+      "@types/node": "^16.11.10",
+      "ts-node": "10.4.0",
+      "typescript": "4.5.2",
+      "@types/koa": "^2.0.49",
+      "@types/koa-logger": "^3.1.1",
+      "@types/koa-router": "^7.0.42",
+      "@types/koa2-cors": "^2.0.1",
+      "@types/redis": "^2.8.13",
+      "nodemon": "^2.0.15"
+   },
+   "dependencies": {
+      "axios": "^0.26.0",
+      "dotenv": "^16.0.0",
+      "pg": "^8.7.3",
+      "reflect-metadata": "^0.1.13",
+      "typeorm": "0.2.44",
+      "koa": "^2.7.0",
+      "koa-logger": "^3.1.0",
+      "koa-router": "^7.3.0",
+      "koa2-cors": "^2.0.5",
+      "redis": "^2.8.0"
+   },
+   "scripts": {
+      "start": "ts-node src/index.ts",
+      "typeorm": "node --require ts-node/register ./node_modules/typeorm/cli.js"
+   }
+}
+
+
